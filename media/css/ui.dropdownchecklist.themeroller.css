@@ -1,0 +1,48 @@
+/* Menu styles */
+.menu ul {
+	margin:0px;
+	padding:0px;
+	text-decoration:none; }
+
+.menu li {
+	margin:0px;
+	list-style-type:none;
+	text-align:left;
+}
+
+.menu li li {
+    margin-left: 15px;
+}
+
+/* Symbol styles */
+.menu .symbol-item, .menu .symbol-open, .menu .symbol-close {
+	float:left;
+	width:16px;
+	height:1em;
+	background-position:left center;
+	background-repeat:no-repeat; }
+    
+.menu .symbol-item {
+    background-image:url("/media/img/icons/page.png");
+}
+
+.menu .symbol-close {
+    background-image:url("/media/img/icons/plus.png");
+}
+
+.menu .symbol-open  {
+    background-image:url("/media/img/icons/minus.png");
+}
+
+/* Menu line styles */
+.menu li.item  {
+    font-weight:normal;
+}
+
+.menu li.close {
+    font-weight:normal;
+}
+
+.menu li.open  {
+    font-weight:bold;
+}
